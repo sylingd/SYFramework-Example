@@ -1,0 +1,28 @@
+{
+    "name": "sylingd/syframework-example",
+    "description": "A example of SYFramework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ShuangYa",
+            "email": "i@sylingd.com"
+        }
+    ],
+    "require": {
+        "respect/validation": "^1.1",
+        "sylingd/syframework": "^2.0@RC"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
